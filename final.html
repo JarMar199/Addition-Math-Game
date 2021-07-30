@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="finalcss.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Math Game</h1>
+        <h2>Answer questions correctly to pop the balloon!</h2>
+        <button id="easy" onclick="easyMode()">Easy</button>
+        <button id="hard" onclick="hardMode()">Hard</button>
+    </div>
+     <div class="container">
+       
+         <div class="left-box">
+            <div id="message"></div>
+            <div id="timer"></div>
+            <table>
+                <tr>
+                    <td id="number1"></td>
+                    <td>+</td>
+                    <td id="number2"></td>
+                    <td>=</td>
+                    <td><input id="answer" type="number" autocomplete="off"></td>
+                </tr>
+            </table>
+            
+            <div id="correct"></div>
+            <div id="incorrect"></div>
+         </div>
+
+         <div class="right-box">
+            <img id="balloon">
+         </div>
+     </div>
+    <script src="finaljs.js"></script>
+</body>
+</html>
