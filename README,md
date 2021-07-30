@@ -1,0 +1,5 @@
+# Math Game
+
+## Decription
+Simple math game using JavaScript. Easy mode uses single digit numbers while Hard mode uses single and double digit numbers.
+Numbers are randomly generated. Answer 10 questions correctly to win the game.
